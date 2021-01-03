@@ -36,6 +36,9 @@ Her oyuna giren kullanıcıların verisini tutacak çünkü bu da yüklü miktar
 Eğer algoritma bilmeyen em*run battlepassta yaptığı gibi her şeyi cookie ile kaydederseniz sunucu 1-2 aylık kullanımdan sonra çöker çöker durur tecrübe de edildiği gibi . 
 B*dex*** adlı lavuğunda yaptığı eklentiyide sürekli kullanırsanız bir zaman sonra sıkıntı yarattığını görürsünüz . 
 Bir şey bildiğini sanıyorsun ama ezberden öte değilsin az beynini çalıştır bu da benden sana son cevap daha da benden sana prim yok çöplüğünde takıl :)
+
+İşime gelir sql kullanırım işime gelir cookie , işime gelir hazır kodu kopyalarım işime gelir sıfırdan yazarım nasıl seni eleştirmiyorsak sen de adam ol kendi işine bak paşa 
+
 */
 
 
