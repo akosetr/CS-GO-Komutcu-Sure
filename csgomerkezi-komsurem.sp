@@ -21,9 +21,9 @@ public Plugin myinfo = {
 
 public void OnPluginStart()
 { 
-	RegConsoleCmd("sm_komsurem", Command_KomTime);
-	g_Tag = CreateConVar("csgomerkezi_tag", "csgomerkezi.online", "Eklenti taginizi giriniz.");
-	GetConVarString(g_Tag, Taga, sizeof(Taga));
+    RegConsoleCmd("sm_komsurem", Command_KomTime);
+    g_Tag = CreateConVar("csgomerkezi_tag", "csgomerkezi.online", "Eklenti taginizi giriniz.");
+    GetConVarString(g_Tag, Taga, sizeof(Taga));
     dbConnect();
     AutoExecConfig(true, "csgomerkezi_akosetr", "csgomerkezi_topkom");
 }
@@ -33,9 +33,9 @@ public void OnPluginStart()
 Database açmanın cahillikle alakası yok ya da kodun kolaylığıyla . 
 Kodları ezberlemişsin ama algoritma öğrenememişsin sürekli veri girişlerinde database kullanılır , ünlenmiş her eklentide cookie yerine database kullanıldığı gibi. | Örnek : https://forums.alliedmods.net/
 Her oyuna giren kullanıcıların verisini tutacak çünkü bu da yüklü miktarda önemli veri demek bu verileri istediğin zaman sıralar istediğin zaman sitene çekersin istedin zaman da tablo şeklinde görürsün.
-Eğer algoritma bilmeyen em*run battlepassta yaptığı gibi her s*ki cookie ile kaydederseniz sunucu 1-2 aylık kullanımdan sonra çöker çöker durur tecrübe de edildiği gibi . 
+Eğer algoritma bilmeyen em*run battlepassta yaptığı gibi her şeyi cookie ile kaydederseniz sunucu 1-2 aylık kullanımdan sonra çöker çöker durur tecrübe de edildiği gibi . 
 B*dex*** adlı lavuğunda yaptığı eklentiyide sürekli kullanırsanız bir zaman sonra sıkıntı yarattığını görürsünüz . 
-Bir s*k bildiğini sanıyorsun ama ezberden öte değilsin az beynini çalıştır bu da benden sana son cevap daha da benden sana prim yok çöplüğünde takıl benim yayınladığım eklentileri free paylaşmaya çalışırsın belki :)
+Bir şeyler bildiğini sanıyorsun ama ezberden öte değilsin az beynini çalıştır bu da benden sana son cevap daha da benden sana prim yok çöplüğünde takıl benim yayınladığım eklentileri free paylaşmaya çalışırsın belki :)
 */
 
 
